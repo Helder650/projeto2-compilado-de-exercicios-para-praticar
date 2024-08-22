@@ -100,8 +100,8 @@ let hora2 = parseFloat(prompt("Quantas horas você trabalhou no mes?"))
 let bruto = hora1 * hora2
 let inss = bruto * 0.08
 let sindicato = bruto * 0.05
-let Liquido = bruto - inss - sindicato
+let liquido = bruto - inss - sindicato
 alert(`Seu salario bruto é ${bruto}R$`)
 alert(`O valor pago ao INSS é ${inss}R$`)
 alert(`O valor pago ao sindicato é ${sindicato}R$`)
-alert(`Seu salario liquido é ${Liquido}R$`)
+alert(`Seu salario liquido é ${liquido}R$`)
